@@ -10,7 +10,7 @@
             "name": "augurk-integration-tests-plan",
             "location": "[resourceGroup().location]",
             "sku": {
-                "name": "F1",
+                "name": "B1",
                 "capacity": 1
             },
             "tags": {
