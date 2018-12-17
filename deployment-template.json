@@ -34,7 +34,10 @@
             ],
             "properties": {
                 "name": "augurk-integration-tests",
-                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'augurk-integration-tests-plan')]"
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'augurk-integration-tests-plan')]",
+                "siteConfig": {
+                    "use32BitWorkerProcess": false
+                }
             }
         }
     ],
